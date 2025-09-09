@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef5f360f-bc6e-45e5-bf2a-5d0b18eae8ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/analytics/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/cart/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/inventory/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/mobile/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/mobile/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/mobile/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/mobile/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/mobile/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/mobile/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/mobile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/mobile/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/orders/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/fixtures/initial_products.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/fixtures/initial_products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/fixtures/initial_users.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/fixtures/initial_users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/docker-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/docker-build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/docker-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/docker-entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/freshk/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/freshk/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/freshk/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/freshk/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/freshk/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/freshk/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/freshk/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/freshk/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/freshk/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/freshk/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/load_seed_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/load_seed_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/project_action_plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/project_action_plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/project_implementation_report.md" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/project_implementation_report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/project_improvements_summary.md" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/project_improvements_summary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/templates/users/account_activation_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/templates/users/account_activation_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/templates/users/password_reset_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend/templates/users/password_reset_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/.cxx/Debug/166762s6/arm64-v8a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/.cxx/Debug/166762s6/arm64-v8a/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/.cxx/Debug/166762s6/armeabi-v7a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/.cxx/Debug/166762s6/armeabi-v7a/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/.cxx/Debug/166762s6/x86/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/.cxx/Debug/166762s6/x86/configure_fingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/android/app/.cxx/Debug/166762s6/x86_64/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/mobile/android/app/.cxx/Debug/166762s6/x86_64/configure_fingerprint.bin" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/admin_dash/B2B-Freshk-backend" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="32CcNikgkNYkcT83G5VJPhAEURP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/MSI/Desktop/freshk/mobile",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef5f360f-bc6e-45e5-bf2a-5d0b18eae8ff" name="Changes" comment="" />
+      <created>1756927956237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756927956237</updated>
+    </task>
+    <servers />
+  </component>
+</project>
