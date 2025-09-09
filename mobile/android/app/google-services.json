@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317815522136",
+    "project_id": "freshk-retailer-app-a9534",
+    "storage_bucket": "freshk-retailer-app-a9534.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317815522136:android:761a6cec04c702360a1b2d",
+        "android_client_info": {
+          "package_name": "com.freshk.freshk_retailer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqzdPt0Hmh5OsTM3yhgX7dFSg7jcWhs3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

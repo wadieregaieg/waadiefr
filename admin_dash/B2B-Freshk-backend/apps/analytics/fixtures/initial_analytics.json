@@ -1,0 +1,271 @@
+[
+  {
+    "model": "analytics.analyticsevent",
+    "pk": 1,
+    "fields": {
+      "event_type": "view",
+      "user_id": 4,
+      "timestamp": "2023-04-19T09:30:00Z",
+      "metadata": {"product_id": 1, "source": "mobile_app"}
+    }
+  },
+  {
+    "model": "analytics.analyticsevent",
+    "pk": 2,
+    "fields": {
+      "event_type": "view",
+      "user_id": 4,
+      "timestamp": "2023-04-19T09:32:00Z",
+      "metadata": {"product_id": 3, "source": "mobile_app"}
+    }
+  },
+  {
+    "model": "analytics.analyticsevent",
+    "pk": 3,
+    "fields": {
+      "event_type": "cart_add",
+      "user_id": 4,
+      "timestamp": "2023-04-19T09:35:00Z",
+      "metadata": {"product_id": 1, "quantity": 3.0, "source": "mobile_app"}
+    }
+  },
+  {
+    "model": "analytics.analyticsevent",
+    "pk": 4,
+    "fields": {
+      "event_type": "cart_add",
+      "user_id": 4,
+      "timestamp": "2023-04-19T09:36:00Z",
+      "metadata": {"product_id": 3, "quantity": 5.0, "source": "mobile_app"}
+    }
+  },
+  {
+    "model": "analytics.analyticsevent",
+    "pk": 5,
+    "fields": {
+      "event_type": "checkout",
+      "user_id": 4,
+      "timestamp": "2023-04-19T09:40:00Z",
+      "metadata": {"order_id": 1, "total_amount": 45.97, "items_count": 3, "source": "mobile_app"}
+    }
+  },
+  {
+    "model": "analytics.analyticsevent",
+    "pk": 6,
+    "fields": {
+      "event_type": "payment",
+      "user_id": 4,
+      "timestamp": "2023-04-19T09:42:00Z",
+      "metadata": {"order_id": 1, "payment_method": "cash_on_delivery", "amount": 45.97, "source": "mobile_app"}
+    }
+  },
+  {
+    "model": "analytics.analyticsevent",
+    "pk": 7,
+    "fields": {
+      "event_type": "view",
+      "user_id": 5,
+      "timestamp": "2023-04-20T11:15:00Z",
+      "metadata": {"product_id": 2, "source": "web"}
+    }
+  },
+  {
+    "model": "analytics.analyticsevent",
+    "pk": 8,
+    "fields": {
+      "event_type": "search",
+      "user_id": 5,
+      "timestamp": "2023-04-20T11:17:00Z",
+      "metadata": {"query": "vegetables", "results_count": 2, "source": "web"}
+    }
+  },
+  {
+    "model": "analytics.analyticsevent",
+    "pk": 9,
+    "fields": {
+      "event_type": "view",
+      "user_id": 5,
+      "timestamp": "2023-04-20T11:19:00Z",
+      "metadata": {"product_id": 4, "source": "web"}
+    }
+  },
+  {
+    "model": "analytics.analyticsevent",
+    "pk": 10,
+    "fields": {
+      "event_type": "cart_add",
+      "user_id": 5,
+      "timestamp": "2023-04-20T11:22:00Z",
+      "metadata": {"product_id": 2, "quantity": 4.0, "source": "web"}
+    }
+  },
+  {
+    "model": "analytics.salesreport",
+    "pk": 1,
+    "fields": {
+      "period_type": "daily",
+      "start_date": "2023-04-20",
+      "end_date": "2023-04-20",
+      "total_sales": "45.97",
+      "total_orders": 1,
+      "total_quantity_kg": "12.000",
+      "average_order_value": "45.97",
+      "total_profit": "9.19",
+      "profit_margin": "20.00",
+      "created_at": "2023-04-21T00:05:00Z"
+    }
+  },
+  {
+    "model": "analytics.salesreport",
+    "pk": 2,
+    "fields": {
+      "period_type": "daily",
+      "start_date": "2023-04-21",
+      "end_date": "2023-04-21",
+      "total_sales": "32.45",
+      "total_orders": 1,
+      "total_quantity_kg": "12.000",
+      "average_order_value": "32.45",
+      "total_profit": "6.00",
+      "profit_margin": "18.50",
+      "created_at": "2023-04-22T00:05:00Z"
+    }
+  },
+  {
+    "model": "analytics.salesreport",
+    "pk": 3,
+    "fields": {
+      "period_type": "weekly",
+      "start_date": "2023-04-17",
+      "end_date": "2023-04-23",
+      "total_sales": "78.42",
+      "total_orders": 2,
+      "total_quantity_kg": "24.000",
+      "average_order_value": "39.21",
+      "total_profit": "15.19",
+      "profit_margin": "19.37",
+      "created_at": "2023-04-24T00:05:00Z"
+    }
+  },
+  {
+    "model": "analytics.salesreport",
+    "pk": 4,
+    "fields": {
+      "period_type": "monthly",
+      "start_date": "2023-04-01",
+      "end_date": "2023-04-30",
+      "total_sales": "78.42",
+      "total_orders": 2,
+      "total_quantity_kg": "24.000",
+      "average_order_value": "39.21",
+      "total_profit": "15.19",
+      "profit_margin": "19.37",
+      "created_at": "2023-05-01T00:05:00Z"
+    }
+  },
+  {
+    "model": "analytics.productperformance",
+    "pk": 1,
+    "fields": {
+      "product": 1,
+      "period_start": "2023-04-01",
+      "period_end": "2023-04-30",
+      "total_sales": "17.97",
+      "total_quantity_sold_kg": "3.000",
+      "total_orders": 1,
+      "profit": "4.47",
+      "profit_margin": "24.87",
+      "created_at": "2023-05-01T00:10:00Z"
+    }
+  },
+  {
+    "model": "analytics.productperformance",
+    "pk": 2,
+    "fields": {
+      "product": 3,
+      "period_start": "2023-04-01",
+      "period_end": "2023-04-30",
+      "total_sales": "9.95",
+      "total_quantity_sold_kg": "5.000",
+      "total_orders": 1,
+      "profit": "2.45",
+      "profit_margin": "24.62",
+      "created_at": "2023-05-01T00:10:05Z"
+    }
+  },
+  {
+    "model": "analytics.productperformance",
+    "pk": 3,
+    "fields": {
+      "product": 7,
+      "period_start": "2023-04-01",
+      "period_end": "2023-04-30",
+      "total_sales": "11.96",
+      "total_quantity_sold_kg": "4.000",
+      "total_orders": 1,
+      "profit": "2.96",
+      "profit_margin": "24.75",
+      "created_at": "2023-05-01T00:10:10Z"
+    }
+  },
+  {
+    "model": "analytics.productperformance",
+    "pk": 4,
+    "fields": {
+      "product": 2,
+      "period_start": "2023-04-01",
+      "period_end": "2023-04-30",
+      "total_sales": "10.00",
+      "total_quantity_sold_kg": "4.000",
+      "total_orders": 1,
+      "profit": "2.80",
+      "profit_margin": "28.00",
+      "created_at": "2023-05-01T00:10:15Z"
+    }
+  },
+  {
+    "model": "analytics.categoryperformance",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "period_start": "2023-04-01",
+      "period_end": "2023-04-30",
+      "total_sales": "27.97",
+      "total_quantity_sold_kg": "7.000",
+      "total_orders": 2,
+      "profit": "7.27",
+      "profit_margin": "26.00",
+      "created_at": "2023-05-01T00:15:00Z"
+    }
+  },
+  {
+    "model": "analytics.categoryperformance",
+    "pk": 2,
+    "fields": {
+      "category": 2,
+      "period_start": "2023-04-01",
+      "period_end": "2023-04-30",
+      "total_sales": "18.92",
+      "total_quantity_sold_kg": "8.000",
+      "total_orders": 2,
+      "profit": "4.77",
+      "profit_margin": "25.20",
+      "created_at": "2023-05-01T00:15:05Z"
+    }
+  },
+  {
+    "model": "analytics.categoryperformance",
+    "pk": 3,
+    "fields": {
+      "category": 4,
+      "period_start": "2023-04-01",
+      "period_end": "2023-04-30",
+      "total_sales": "21.91",
+      "total_quantity_sold_kg": "9.000",
+      "total_orders": 2,
+      "profit": "5.65",
+      "profit_margin": "25.80",
+      "created_at": "2023-05-01T00:15:10Z"
+    }
+  }
+] 

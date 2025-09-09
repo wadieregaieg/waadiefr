@@ -1,0 +1,287 @@
+[
+  {
+    "model": "users.customuser",
+    "pk": 1,
+    "fields": {
+      "username": "admin1",
+      "email": "admin1@example.com",
+      "role": "admin",
+      "password": "pbkdf2_sha256$870000$4CtDGT43gDbZjF8cKAEMR3$16f6J25QkzRTs2gRZ5vd9/pmzlHNyJhCA/OOKjkkUz8=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 2,
+    "fields": {
+      "username": "admin2",
+      "email": "admin2@example.com",
+      "role": "admin",
+      "password": "pbkdf2_sha256$870000$WJuAEwuTRLiPtHTkuuLkMF$BtKsEOZEKkIi95y3Q0zHkAmgqPmXQMVheu39HLc4taQ=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 3,
+    "fields": {
+      "username": "admin3",
+      "email": "admin3@example.com",
+      "role": "admin",
+      "password": "pbkdf2_sha256$870000$EWR4bmjpSBRHa8iFNzzaue$ZNZ+fBijnWb0WWkAx3wnHXqefRzJMRu6Vl8yxCXndAM=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 4,
+    "fields": {
+      "username": "retailer1",
+      "email": "retailer1@example.com",
+      "role": "retailer",
+      "password": "pbkdf2_sha256$870000$J4riX0d6LtEATsLU0lxFml$1y8oTOx7L+wnlZ8OilVYqm4L1L7di/BhODPG2bpLJLk=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 5,
+    "fields": {
+      "username": "retailer2",
+      "email": "retailer2@example.com",
+      "role": "retailer",
+      "password": "pbkdf2_sha256$870000$bRVxQoCVcjdV1wisVJPtKx$CdIUz4yDQDLSzWugKOu1YvfL1V16Qd0MMprNf23Sdn4=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 6,
+    "fields": {
+      "username": "retailer3",
+      "email": "retailer3@example.com",
+      "role": "retailer",
+      "password": "pbkdf2_sha256$870000$4oX3esuIpEwieQHRtzhzTS$uVmI99YjWialE1Eyeo58YgpNtxZOLCjKE8NWB7vpzho=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 7,
+    "fields": {
+      "username": "retailer4",
+      "email": "retailer4@example.com",
+      "role": "retailer",
+      "password": "pbkdf2_sha256$870000$UKvxr3hXlXrs1kkMvzTmld$wSlRKvPri7BH3yZFLlDx1Le9UY8gOqhels3s9tHDCHw=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 8,
+    "fields": {
+      "username": "retailer5",
+      "email": "retailer5@example.com",
+      "role": "retailer",
+      "password": "pbkdf2_sha256$870000$gnlNjXHoa5pVETS2GEXqym$+9wwnzuk8w8r7nQ46CcQnBNSuNg9EKxV5tmPi68UIMg=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.retailerprofile",
+    "pk": 1,
+    "fields": {
+      "user": 4,
+      "company_name": "Retailer Company 1",
+      "contact_number": "1111111111",
+      "address": "Address 1, City, Country"
+    }
+  },
+  {
+    "model": "users.retailerprofile",
+    "pk": 2,
+    "fields": {
+      "user": 5,
+      "company_name": "Retailer Company 2",
+      "contact_number": "2222222222",
+      "address": "Address 2, City, Country"
+    }
+  },
+  {
+    "model": "users.retailerprofile",
+    "pk": 3,
+    "fields": {
+      "user": 6,
+      "company_name": "Retailer Company 3",
+      "contact_number": "3333333333",
+      "address": "Address 3, City, Country"
+    }
+  },
+  {
+    "model": "users.retailerprofile",
+    "pk": 4,
+    "fields": {
+      "user": 7,
+      "company_name": "Retailer Company 4",
+      "contact_number": "4444444444",
+      "address": "Address 4, City, Country"
+    }
+  },
+  {
+    "model": "users.retailerprofile",
+    "pk": 5,
+    "fields": {
+      "user": 8,
+      "company_name": "Retailer Company 5",
+      "contact_number": "5555555555",
+      "address": "Address 5, City, Country"
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 9,
+    "fields": {
+      "username": "supplier1",
+      "email": "supplier1@example.com",
+      "role": "supplier",
+      "password": "pbkdf2_sha256$870000$NxlMafHC0NPdD5HV8fhOkF$KfHBgHj/CfLmO6cN9xB9fj80Zgp21av2Dzmb22L4fEg=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 10,
+    "fields": {
+      "username": "supplier2",
+      "email": "supplier2@example.com",
+      "role": "supplier",
+      "password": "pbkdf2_sha256$870000$WzTWKdVxxRJAaSmzBjEzrF$1Op3PKIzhuFs88lllcxim6H53BPC2lpd092afaa9jz4=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 11,
+    "fields": {
+      "username": "supplier3",
+      "email": "supplier3@example.com",
+      "role": "supplier",
+      "password": "pbkdf2_sha256$870000$yv90LE52tu1TtHYPWsphW0$pOPikasDkZAQzdyeaSJZ+1bBy5WixN7ZDXEa75rqxHA=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 12,
+    "fields": {
+      "username": "supplier4",
+      "email": "supplier4@example.com",
+      "role": "supplier",
+      "password": "pbkdf2_sha256$870000$Z5cQhB8TVN1bxJYBaEk0hq$6lgUD0mZM7vjnre6kBqloxWcZF/ZpLYkhy9MChVjmIU=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.customuser",
+    "pk": 13,
+    "fields": {
+      "username": "supplier5",
+      "email": "supplier5@example.com",
+      "role": "supplier",
+      "password": "pbkdf2_sha256$870000$zZ9AZS8rK1hnglmCsydAlh$4Gr5+PqedhYdQcVDKZIAIemH7DedCQptC1ZOvty+3as=",
+      "date_joined": "2025-07-01T22:36:00.498115+00:00",
+      "last_activity": "2025-07-01T22:36:00.498115+00:00",
+      "is_active": true
+    }
+  },
+  {
+    "model": "users.supplierprofile",
+    "pk": 1,
+    "fields": {
+      "user": 9,
+      "company_name": "Supplier Company 1",
+      "contact_person": "Supplier Person 1",
+      "phone": "1111111111",
+      "address": "Supplier Address 1, City, Country",
+      "additional_info": "Additional Info 1"
+    }
+  },
+  {
+    "model": "users.supplierprofile",
+    "pk": 2,
+    "fields": {
+      "user": 10,
+      "company_name": "Supplier Company 2",
+      "contact_person": "Supplier Person 2",
+      "phone": "2222222222",
+      "address": "Supplier Address 2, City, Country",
+      "additional_info": "Additional Info 2"
+    }
+  },
+  {
+    "model": "users.supplierprofile",
+    "pk": 3,
+    "fields": {
+      "user": 11,
+      "company_name": "Supplier Company 3",
+      "contact_person": "Supplier Person 3",
+      "phone": "3333333333",
+      "address": "Supplier Address 3, City, Country",
+      "additional_info": "Additional Info 3"
+    }
+  },
+  {
+    "model": "users.supplierprofile",
+    "pk": 4,
+    "fields": {
+      "user": 12,
+      "company_name": "Supplier Company 4",
+      "contact_person": "Supplier Person 4",
+      "phone": "4444444444",
+      "address": "Supplier Address 4, City, Country",
+      "additional_info": "Additional Info 4"
+    }
+  },
+  {
+    "model": "users.supplierprofile",
+    "pk": 5,
+    "fields": {
+      "user": 13,
+      "company_name": "Supplier Company 5",
+      "contact_person": "Supplier Person 5",
+      "phone": "5555555555",
+      "address": "Supplier Address 5, City, Country",
+      "additional_info": "Additional Info 5"
+    }
+  }
+]

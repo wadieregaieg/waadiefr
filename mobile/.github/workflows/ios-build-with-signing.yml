@@ -1,0 +1,200 @@
+name: iOS Build with Code Signing
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+    inputs:
+      build_type:
+        description: 'Build type'
+        required: true
+        default: 'debug'
+        type: choice
+        options:
+        - debug
+        - release
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.19.0'
+        channel: 'stable'
+        
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0'
+        bundler-cache: true
+        
+    - name: Install iOS dependencies
+      run: |
+        cd mobile
+        flutter pub get
+        cd ios
+        pod install
+        
+    - name: Build iOS (Debug)
+      if: github.event.inputs.build_type == 'debug' || github.event.inputs.build_type == null
+      run: |
+        cd mobile
+        flutter build ios --debug --no-codesign
+        
+    - name: Build iOS (Release)
+      if: github.event.inputs.build_type == 'release'
+      run: |
+        cd mobile
+        flutter build ios --release --no-codesign
+        
+    - name: Upload debug build artifacts
+      if: github.event.inputs.build_type == 'debug' || github.event.inputs.build_type == null
+      uses: actions/upload-artifact@v4
+      with:
+        name: ios-debug-build
+        path: mobile/build/ios/
+        retention-days: 7
+        
+    - name: Upload release build artifacts
+      if: github.event.inputs.build_type == 'release'
+      uses: actions/upload-artifact@v4
+      with:
+        name: ios-release-build
+        path: mobile/build/ios/
+        retention-days: 30
+        
+    - name: Run tests
+      run: |
+        cd mobile
+        flutter test
+        
+    - name: Analyze code
+      run: |
+        cd mobile
+        flutter analyze
+        
+    - name: Check formatting
+      run: |
+        cd mobile
+        dart format --set-exit-if-changed .
+        
+  # Code signing job (only for main branch and release builds)
+  code-sign-ios:
+    runs-on: macos-latest
+    needs: build-ios
+    if: github.ref == 'refs/heads/main' && (github.event.inputs.build_type == 'release' || github.event_name == 'push')
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.19.0'
+        channel: 'stable'
+        
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.0'
+        bundler-cache: true
+        
+    - name: Install iOS dependencies
+      run: |
+        cd mobile
+        flutter pub get
+        cd ios
+        pod install
+        
+    - name: Create keychain
+      run: |
+        security create-keychain -p "${{ secrets.KEYCHAIN_PASSWORD }}" build.keychain
+        security default-keychain -s build.keychain
+        security unlock-keychain -p "${{ secrets.KEYCHAIN_PASSWORD }}" build.keychain
+        security set-keychain-settings build.keychain
+        
+    - name: Import certificate
+      run: |
+        echo "${{ secrets.BUILD_CERTIFICATE_BASE64 }}" | base64 --decode > certificate.p12
+        security import certificate.p12 -k build.keychain -P "${{ secrets.P12_PASSWORD }}" -T /usr/bin/codesign
+        security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "${{ secrets.KEYCHAIN_PASSWORD }}" build.keychain
+        
+    - name: Import provisioning profile
+      run: |
+        echo "${{ secrets.BUILD_PROVISION_PROFILE_BASE64 }}" | base64 --decode > profile.mobileprovision
+        mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
+        cp profile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/
+        
+    - name: Build iOS with code signing
+      run: |
+        cd mobile
+        flutter build ios --release
+      env:
+        TEAM_ID: ${{ secrets.TEAM_ID }}
+        BUNDLE_ID: ${{ secrets.BUNDLE_ID }}
+        
+    - name: Upload signed build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ios-signed-release-build
+        path: mobile/build/ios/
+        retention-days: 30
+        
+    - name: Create release
+      if: github.event_name == 'push'
+      uses: softprops/action-gh-release@v1
+      with:
+        files: mobile/build/ios/iphoneos/Runner.app
+        tag_name: v${{ github.run_number }}
+        name: Release v${{ github.run_number }}
+        body: |
+          iOS Release Build v${{ github.run_number }}
+          
+          - Built from commit: ${{ github.sha }}
+          - Branch: ${{ github.ref }}
+          - Build number: ${{ github.run_number }}
+          
+          Download the signed iOS app bundle from the artifacts.
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+  # Test job
+  test-ios:
+    runs-on: macos-latest
+    needs: build-ios
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.19.0'
+        channel: 'stable'
+        
+    - name: Install iOS dependencies
+      run: |
+        cd mobile
+        flutter pub get
+        cd ios
+        pod install
+        
+    - name: Run iOS simulator tests
+      run: |
+        cd mobile
+        flutter test --platform=ios
+        
+    - name: Run integration tests
+      run: |
+        cd mobile
+        flutter drive --target=test_driver/app.dart 

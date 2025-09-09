@@ -1,0 +1,120 @@
+[
+    {
+      "model": "cart.cart",
+      "pk": 1,
+      "fields": {
+        "user": 4,
+        "total_amount": "29.95",
+        "created_at": "2023-04-25T10:30:00Z",
+        "updated_at": "2023-04-25T10:35:00Z"
+      }
+    },
+    {
+      "model": "cart.cart",
+      "pk": 2,
+      "fields": {
+        "user": 5,
+        "total_amount": "42.45",
+        "created_at": "2023-04-25T11:00:00Z",
+        "updated_at": "2023-04-25T11:15:00Z"
+      }
+    },
+    {
+      "model": "cart.cart",
+      "pk": 3,
+      "fields": {
+        "user": 6,
+        "total_amount": "15.98",
+        "created_at": "2023-04-25T09:45:00Z",
+        "updated_at": "2023-04-25T09:55:00Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 1,
+      "fields": {
+        "cart": 1,
+        "product": 1,
+        "quantity": "2.000",
+        "added_at": "2023-04-25T10:30:00Z",
+        "updated_at": "2023-04-25T10:30:00Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 2,
+      "fields": {
+        "cart": 1,
+        "product": 3,
+        "quantity": "5.000",
+        "added_at": "2023-04-25T10:32:00Z",
+        "updated_at": "2023-04-25T10:35:00Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 3,
+      "fields": {
+        "cart": 1,
+        "product": 7,
+        "quantity": "3.000",
+        "added_at": "2023-04-25T10:33:00Z",
+        "updated_at": "2023-04-25T10:33:00Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 4,
+      "fields": {
+        "cart": 2,
+        "product": 2,
+        "quantity": "3.000",
+        "added_at": "2023-04-25T11:00:00Z",
+        "updated_at": "2023-04-25T11:00:00Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 5,
+      "fields": {
+        "cart": 2,
+        "product": 4,
+        "quantity": "4.000",
+        "added_at": "2023-04-25T11:05:00Z",
+        "updated_at": "2023-04-25T11:05:00Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 6,
+      "fields": {
+        "cart": 2,
+        "product": 5,
+        "quantity": "6.000",
+        "added_at": "2023-04-25T11:10:00Z",
+        "updated_at": "2023-04-25T11:15:00Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 7,
+      "fields": {
+        "cart": 3,
+        "product": 6,
+        "quantity": "8.000",
+        "added_at": "2023-04-25T09:45:00Z",
+        "updated_at": "2023-04-25T09:45:00Z"
+      }
+    },
+    {
+      "model": "cart.cartitem",
+      "pk": 8,
+      "fields": {
+        "cart": 3,
+        "product": 8,
+        "quantity": "2.000",
+        "added_at": "2023-04-25T09:50:00Z",
+        "updated_at": "2023-04-25T09:55:00Z"
+      }
+    }
+  ]

@@ -1,0 +1,59 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Local development
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+logs/
+*.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Media and static in development
+media/
+static/
+staticfiles/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Docker
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose*.yml
+
+# Documentation
+README.md
+docs/
+*.md
+
+# System files
+.DS_Store
+Thumbs.db 

@@ -1,0 +1,146 @@
+[
+  {
+    "model": "products.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Grains",
+      "description": "Various types of grains such as rice, wheat, oats, etc."
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Vegetables",
+      "description": "Fresh and organic vegetables."
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Fruits",
+      "description": "Seasonal and exotic fruits."
+    }
+  },
+  {
+    "model": "products.productcategory",
+    "pk": 4,
+    "fields": {
+      "name": "Herbs",
+      "description": "Aromatic herbs and spices."
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "name": "Basmati Rice",
+      "description": "Premium quality basmati rice from India.",
+      "price": "5.99",
+      "stock_quantity": 200,
+      "sku": "GRN001",
+      "image": "",
+      "category": 1,
+      "supplier": null
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "name": "Whole Wheat Flour",
+      "description": "High-quality whole wheat flour.",
+      "price": "2.50",
+      "stock_quantity": 150,
+      "sku": "GRN002",
+      "image": "",
+      "category": 1,
+      "supplier": null
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "name": "Carrots",
+      "description": "Organic carrots for a healthy diet.",
+      "price": "1.99",
+      "stock_quantity": 300,
+      "sku": "VEG001",
+      "image": "",
+      "category": 2,
+      "supplier": null
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "name": "Broccoli",
+      "description": "Fresh broccoli rich in nutrients.",
+      "price": "2.99",
+      "stock_quantity": 100,
+      "sku": "VEG002",
+      "image": "",
+      "category": 2,
+      "supplier": null
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "name": "Apples",
+      "description": "Crisp and sweet apples.",
+      "price": "3.49",
+      "stock_quantity": 250,
+      "sku": "FRT001",
+      "image": "",
+      "category": 3,
+      "supplier": null
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "name": "Bananas",
+      "description": "Ripe bananas, a great source of energy.",
+      "price": "1.25",
+      "stock_quantity": 400,
+      "sku": "FRT002",
+      "image": "",
+      "category": 3,
+      "supplier": null
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "name": "Basil",
+      "description": "Fresh basil leaves for cooking and garnishing.",
+      "price": "2.99",
+      "stock_quantity": 80,
+      "sku": "HRB001",
+      "image": "",
+      "category": 4,
+      "supplier": null
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "name": "Mint",
+      "description": "Refreshing mint leaves for beverages and cooking.",
+      "price": "1.99",
+      "stock_quantity": 100,
+      "sku": "HRB002",
+      "image": "",
+      "category": 4,
+      "supplier": null
+    }
+  }
+]

@@ -1,0 +1,2 @@
+C:/Users/MSI/Desktop/freshk/mobile/android/app/.cxx/Debug/166762s6/x86/CMakeFiles/edit_cache.dir
+C:/Users/MSI/Desktop/freshk/mobile/android/app/.cxx/Debug/166762s6/x86/CMakeFiles/rebuild_cache.dir

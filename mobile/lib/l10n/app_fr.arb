@@ -1,0 +1,788 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Freshk",
+  "authentication": "Authentification",
+  "login": "Connexion",
+  "signUp": "S'inscrire",
+  "email": "Email",
+  "username": "Nom d'utilisateur",
+  "password": "Mot de passe",
+  "confirmPassword": "Confirmer le mot de passe",
+  "fullName": "Nom complet",
+  "firstName": "Prénom",
+  "lastName": "Nom de famille",
+  "forgotPassword": "Mot de passe oublié ?",
+  "forgotPasswordFeatureComingSoon": "Fonctionnalité de mot de passe oublié bientôt disponible !",
+  "rememberMe": "Se souvenir de moi",
+  "enterPhoneNumber": "Entrez votre numéro de téléphone",
+  "enterEmail": "Entrez votre adresse email",
+  "enterPassword": "Entrez votre mot de passe",
+  "confirmYourNewPassword": "Confirmez votre nouveau mot de passe",
+  "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+  "pleaseEnterValidEmail": "Veuillez entrer une adresse email valide",
+  "passwordMustBeAtLeast6Characters": "Le mot de passe doit contenir au moins 6 caractères",
+  "enterYourPhoneNumber": "Entrez votre numéro de téléphone",
+  "enterYourFirstName": "Veuillez entrer votre prénom",
+  "enterYourLastName": "Veuillez entrer votre nom de famille",
+  "passwordIsRequired": "Le mot de passe est requis",
+  "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères",
+  "enterYourUsername": "Entrez votre nom d'utilisateur",
+  "usernameIsRequired": "Le nom d'utilisateur est requis",
+  "navigation": "Navigation",
+  "home": "Accueil",
+  "orderHistory": "Historique des commandes",
+  "shoppingCart": "Panier d'achats",
+  "profile": "Profil",
+  "trackOrder": "Suivre la commande",
+  "history": "Historique",
+  "cart": "Panier",
+  "notifications": "Notifications",
+  "settings": "Paramètres",
+  "error": "ERREUR",
+  "userProfile": "Profil utilisateur",
+  "welcome": "Bienvenue, {userName}",
+  "@welcome": {
+    "placeholders": {
+      "userName": {
+        "type": "String"
+      }
+    }
+  },
+  "personalDetails": "Détails personnels",
+  "manageProfile": "Gérer le profil",
+  "profileUpdatedSuccessfully": "Profil mis à jour avec succès !",
+  "errorUpdatingProfile": "Erreur lors de la mise à jour du profil",
+  "saveProfile": "Enregistrer le profil",
+  "shippingAddress": "Adresse de livraison",
+  "shippingAddresses": "Adresses de livraison",
+  "retailerProfiles": "Profils de détaillants",
+  "supportCenter": "Centre de support",
+  "termsAndConditions": "Termes et Conditions",
+  "logOut": "Déconnexion",
+  "myQRCode": "Mon code QR",
+  "failedToGenerateQRCode": "Échec de la génération du code QR",
+  "close": "Fermer",
+  "addresses": "Adresses",
+  "addNewAddress": "Ajouter une nouvelle adresse",
+  "updateAddress": "Mettre à jour l'adresse",
+  "saveAddress": "Enregistrer l'adresse",
+  "streetAddress": "Adresse (rue)",
+  "city": "Ville",
+  "state": "État/Province",
+  "country": "Pays",
+  "postalCode": "Code postal",
+  "phone": "Téléphone",
+  "defaultAddress": "Adresse par défaut",
+  "setAsDefault": "Définir par défaut",
+  "setAsDefaultAddress": "Définir comme adresse par défaut",
+  "editAddress": "Modifier l'adresse",
+  "pleaseEnterStreetAddress": "Veuillez entrer l'adresse de la rue",
+  "pleaseEnterCity": "Veuillez entrer la ville",
+  "stateProvinceOptional": "État/Province (Facultatif)",
+  "pleaseEnterPostalCode": "Veuillez entrer le code postal",
+  "enterValidPostalCode": "Entrez un code postal valide",
+  "pleaseEnterCountry": "Veuillez entrer le pays",
+  "addressUpdatedSuccessfully": "Adresse mise à jour avec succès",
+  "addressCreatedSuccessfully": "Adresse créée avec succès",
+  "noAddressSelected": "Aucune adresse sélectionnée.",
+  "selectDeliveryAddress": "Sélectionner l'adresse de livraison",
+  "noAddressesAvailable": "Aucune adresse disponible",
+  "pleaseAddAnAddress": "Veuillez ajouter une adresse pour continuer",
+  "select": "Sélectionner",
+  "change": "Changer",
+  "retailerProfile": "Profil du détaillant",
+  "retailerProfileRequired": "Profil de détaillant requis",
+  "retailerProfileRequiredMessage": "Pour utiliser cette application, vous devez créer au moins un profil de détaillant. Cela nous aide à vous fournir des services personnalisés et à gérer les informations de votre entreprise.",
+  "createProfile": "Créer un profil",
+  "newProfile": "Nouveau profil",
+  "updateProfile": "Mettre à jour le profil",
+  "enterRetailerBusinessInformation": "Entrez les informations de votre entreprise de détaillant",
+  "modifyRetailerBusinessInformation": "Modifiez les informations de votre entreprise de détaillant",
+  "companyName": "Nom de l'entreprise",
+  "enterYourCompanyName": "Entrez le nom de votre entreprise",
+  "companyNameIsRequired": "Le nom de l'entreprise est requis",
+  "address": "Adresse",
+  "enterYourBusinessAddress": "Entrez l'adresse de votre entreprise",
+  "addressIsRequired": "L'adresse est requise",
+  "contactNumber": "Numéro de contact",
+  "enterYourContactNumber": "Entrez votre numéro de contact",
+  "contactNumberIsRequired": "Le numéro de contact est requis",
+  "pleaseEnterValidPhoneNumber": "Veuillez entrer un numéro de téléphone valide",
+  "retailerType": "Type de détaillant",
+  "selectRetailerType": "Sélectionnez le type de détaillant",
+  "pleaseSelectRetailerType": "Veuillez sélectionner un type de détaillant",
+  "retailer": "Détaillant",
+  "farmer": "Agriculteur",
+  "products": "Produits",
+  "searchForCrops": "Rechercher des cultures...",
+  "categories": "Catégories",
+  "fruits": "Fruits",
+  "vegetables": "Légumes",
+  "herbs": "Herbes",
+  "trendingProducts": "Produits tendance",
+  "noMoreProductsToLoad": "Plus de produits à charger",
+  "productDetails": "Détails du produit",
+  "description": "Description",
+  "stockAvailability": "Disponibilité du stock",
+  "availableStock": "Stock disponible : {stock} kg",
+  "@availableStock": {
+    "placeholders": {
+      "stock": {
+        "type": "String"
+      }
+    }
+  },
+  "total": "Total :",
+  "quantity": "Quantité",
+  "addToCart": "Ajouter au panier",
+  "price": "Prix :",
+  "confirmOrder": "Confirmer la commande",
+  "quantityMustBeGreaterThan0": "La quantité doit être supérieure à 0",
+  "cancel": "Annuler",
+  "ok": "OK",
+  "orders": "Commandes",
+  "orderSummary": "Résumé de la commande",
+  "totalItems": "Total des articles : {count}",
+  "@totalItems": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "orderInfo": "Infos sur la commande",
+  "subTotal": "Sous-total",
+  "deliveryCharge": "Frais de livraison",
+  "discount": "Réduction",
+  "totalAmount": "Montant total",
+  "continueToPayment": "Continuer vers le paiement",
+  "activeOrder": "active",
+  "pastOrder": "passée",
+  "tapOnOrderCardMessage": "Appuyez sur une carte de commande pour voir plus de détails ou prendre une action.",
+  "showingOrdersInfo": "Affichage de {current} sur {total} commandes ({filtered} {type})",
+  "@showingOrdersInfo": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      },
+      "filtered": {
+        "type": "String"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "active": "actives",
+  "past": "passées",
+  "noOrdersYet": "Aucune commande pour le moment",
+  "orderNumber": "Numéro de commande",
+  "orderID": "ID de la commande",
+  "orderDate": "Date de la commande",
+  "estimatedDelivery": "Livraison estimée",
+  "deliveryDate": "Date de livraison",
+  "status": "Statut :",
+  "totalAmountLabel": "Montant total :",
+  "moreDetails": "Plus de détails",
+  "hideDetails": "Masquer les détails",
+  "invoiceDetails": "Détails de la facture",
+  "orderStatus": "Statut de la commande",
+  "articlesOrdered": "ARTICLES COMMANDÉS",
+  "estimated": "Estimé : {amount}",
+  "@estimated": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "items": "Articles",
+  "itemsCount": "{count} Articles",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmed": "Confirmée",
+  "packed": "Emballée",
+  "shipped": "Expédiée",
+  "delivery": "Livraison",
+  "delivered": "Votre commande a été finalisée.",
+  "orderConfirmed": "Votre commande a été confirmée.",
+  "orderPacked": "Votre commande a été emballée.",
+  "orderShipped": "Votre commande a été expédiée.",
+  "orderStatusUpdated": "Le statut de votre commande a été mis à jour.",
+  "payment": "Paiement",
+  "paymentMethods": "Méthodes de paiement",
+  "cashOnDelivery": "Paiement à la livraison",
+  "payWithCashOnDelivery": "Payez en espèces à l'arrivée de votre commande",
+  "payWhenYouReceive": "Payez à la réception",
+  "bank": "Banque",
+  "comingSoon": "Bientôt disponible",
+  "bankTransfer": "Virement bancaire",
+  "transferMoneyDirectly": "Transférez l'argent directement sur notre compte bancaire",
+  "placeOrder": "Passer la commande",
+  "processing": "En cours de traitement...",
+  "paymentMethod": "Méthode de paiement",
+  "driverIsOnTheWay": "Le livreur est en route",
+  "additionalTrackingInformation": "Informations de suivi supplémentaires",
+  "noItemsInThisOrder": "Aucun article dans cette commande.",
+  "errorLoadingAddresses": "Erreur lors du chargement des adresses : {error}",
+  "@errorLoadingAddresses": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "pleaseLogInToProceed": "Veuillez vous connecter pour continuer.",
+  "pleaseAddDeliveryAddress": "Veuillez ajouter une adresse de livraison avant de passer votre commande.",
+  "emptyCart": "Panier vide",
+  "yourCartIsEmptyMessage": "Votre panier est vide. Veuillez ajouter des articles avant de passer à la caisse.",
+  "shopNow": "Acheter maintenant",
+  "stockUnavailable": "Stock indisponible",
+  "stockUnavailableMessage": "Désolé, {productName} est en rupture de stock. Seulement {availableStock} {unit} disponibles. Veuillez mettre à jour votre panier.",
+  "@stockUnavailableMessage": {
+    "placeholders": {
+      "productName": {
+        "type": "String"
+      },
+      "availableStock": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "viewCart": "Voir le panier",
+  "addressRequired": "Adresse requise",
+  "addressRequiredMessage": "Veuillez ajouter une adresse de livraison avant de passer votre commande.",
+  "addAddress": "Ajouter une adresse",
+  "accessRestricted": "Accès restreint",
+  "accessRestrictedMessage": "Seuls les détaillants peuvent passer des commandes. Veuillez contacter le support si vous pensez qu'il s'agit d'une erreur.",
+  "checkoutFailed": "Échec du paiement : {error}",
+  "@checkoutFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "networkError": "Erreur Réseau",
+  "paymentSuccessful": "Paiement réussi",
+  "yourOrderHasBeenPlaced": "Votre commande a été passée avec succès !",
+  "backToHome": "Retour à l'accueil",
+  "viewOrder": "Voir la commande",
+  "account": "Compte",
+  "changePassword": "Changer le mot de passe",
+  "preferences": "Préférences",
+  "language": "Langue",
+  "selectLanguage": "Choisir la langue",
+  "english": "English",
+  "french": "Français",
+  "arabic": "العربية",
+  "theme": "Thème",
+  "notificationSettings": "Paramètres de notification",
+  "receiveNotifications": "Recevoir des notifications",
+  "notificationSound": "Son de notification",
+  "oldPassword": "Ancien mot de passe",
+  "newPassword": "Nouveau mot de passe",
+  "enterYourOldPassword": "Entrez votre ancien mot de passe",
+  "enterYourNewPassword": "Entrez votre nouveau mot de passe",
+  "passwordChangedSuccessfully": "Mot de passe changé avec succès !",
+  "pleaseEnterOldPassword": "Veuillez entrer votre ancien mot de passe",
+  "pleaseEnterNewPassword": "Veuillez entrer votre nouveau mot de passe",
+  "general": "Général",
+  "save": "Enregistrer",
+  "edit": "Modifier",
+  "delete": "Supprimer",
+  "update": "Mettre à jour",
+  "create": "Créer",
+  "loading": "Chargement",
+  "retry": "Réessayer",
+  "goToHome": "Aller à l'accueil",
+  "other": "Autre",
+  "all": "Tous",
+  "required": "requis",
+  "isRequired": "est requis",
+  "errors": "Erreurs",
+  "noInternetConnection": "Pas de connexion Internet",
+  "checkNetworkSettings": "Veuillez vérifier vos paramètres réseau et réessayer.",
+  "makeSureWifiOrMobileData": "Assurez-vous que le Wi-Fi ou les données mobiles sont activés.",
+  "errorOccurred": "Erreur : {error}",
+  "@errorOccurred": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "help": "Aide",
+  "imageUploadNotImplemented": "La fonctionnalité de téléchargement d'images n'est pas encore implémentée",
+  "ourInformationHelpsUs": "Nos informations nous aident à fournir un meilleur service\net à vous joindre plus efficacement.",
+  "postCode": "Code postal",
+  "postCodeIsRequired": "Le code postal est requis",
+  "enterValidPostCode": "Entrez un code postal valide",
+  "termsAndConditionsContent": "Contenu des Termes et Conditions",
+  "termsIntroduction": "En utilisant cette application, vous acceptez ces Termes et Conditions. Veuillez les lire attentivement.",
+  "userObligations": "Vous êtes responsable de respecter toutes les lois applicables et d'utiliser l'application de manière légale.",
+  "limitationOfLiability": "L'application est fournie \"telle quelle\" sans garantie d'aucune sorte. Nous ne sommes pas responsables des dommages résultant de votre utilisation de l'application.",
+  "modifications": "Nous nous réservons le droit de mettre à jour ces termes à tout moment. L'utilisation continue de l'application constitue l'acceptation des termes révisés.",
+  "updateDialog": "Boîte de dialogue de mise à jour",
+  "requiredUpdate": "Mise à jour requise",
+  "optionalUpdate": "Mise à jour facultative",
+  "versionAvailable": "La version {version} est maintenant disponible !",
+  "@versionAvailable": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "currentVersion": "Version actuelle : {version}",
+  "@currentVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "whatsNew": "Quoi de neuf :",
+  "passwordReset": "Réinitialisation du mot de passe",
+  "resetPassword": "Réinitialiser le mot de passe",
+  "passwordResetSuccessful": "Réinitialisation du mot de passe réussie !",
+  "yourPasswordHasBeenReset": "Votre mot de passe a été réinitialisé avec succès. Vous pouvez maintenant vous connecter avec votre nouveau mot de passe.",
+  "onboarding": "Intégration",
+  "successfullyCreated": "Créé avec succès !",
+  "accountCreatedSuccessfully": "Votre compte a été créé avec succès !",
+  "dateTime": "Date et Heure",
+  "yesterday": "Hier",
+  "today": "Aujourd'hui",
+  "otpVerification": "Vérification OTP",
+  "verifyOtp": "Vérifier l'OTP",
+  "verify": "Vérifier",
+  "otpSentToNumber": "Un code à 6 chiffres a été envoyé à votre numéro.\nVeuillez le saisir ci-dessous pour continuer.",
+  "didntReceiveCode": "Vous n'avez reçu aucun code ? ",
+  "resend": "Renvoyer",
+  "invalidOtpFormat": "Format OTP invalide. Veuillez entrer un code valide à 6 chiffres.",
+  "invalidExpiredVerificationCode": "Code de vérification invalide ou expiré. Veuillez réessayer.",
+  "otpResentSuccess": "Un nouvel OTP a été envoyé à votre numéro.",
+  "otpResendFailed": "Échec de l'envoi de l'OTP. Veuillez réessayer.",
+  "unexpectedError": "Une erreur inattendue s'est produite. Veuillez réessayer.",
+  "deleteAddress": "Supprimer l'adresse",
+  "areYouSureDeleteAddress": "Êtes-vous sûr de vouloir supprimer cette adresse ? Cette action est irréversible.",
+  "addressDeletedSuccessfully": "Adresse supprimée avec succès",
+  "errorDeletingAddress": "Erreur lors de la suppression de l'adresse",
+  "somethingWentWrong": "Quelque chose s'est mal passé",
+  "tryAgain": "Réessayer",
+  "noAddressesYet": "Aucune adresse pour le moment",
+  "addFirstShippingAddress": "Ajoutez votre première adresse de livraison pour\ncommencer avec les livraisons",
+  "deleteAddressAction": "Supprimer",
+  "editAddressAction": "Modifier l'adresse",
+  "setAsDefaultAction": "Définir par défaut",
+  "defaultAddressUpdated": "Adresse par défaut mise à jour",
+  "profileScreen": "Écran de profil",
+  "selectImageSource": "Sélectionner la source de l'image",
+  "chooseFromGallery": "Choisir depuis la galerie",
+  "takeAPhoto": "Prendre une photo",
+  "areYouSureLogOut": "Êtes-vous sûr de vouloir vous déconnecter ?",
+  "myAccount": "Mon compte",
+  "historyScreen": "Historique",
+  "noHistoryAvailable": "Aucun historique disponible",
+  "yourCartIsEmpty": "Votre panier est vide",
+  "enterQuantityKg": "Entrez la quantité (kg)",
+  "availableStockWithDecimal": "Stock disponible : {stock} kg",
+  "@availableStockWithDecimal": {
+    "placeholders": {
+      "stock": {
+        "type": "String"
+      }
+    }
+  },
+  "quantityMustBeGreaterThanZero": "La quantité doit être supérieure à 0",
+  "quantityCannotBeZero": "La quantité ne peut pas être zéro. Utilisez le bouton de suppression pour retirer l'article.",
+  "quantitySetToMaximumAvailable": "Quantité définie au maximum disponible : {stock} kg",
+  "@quantitySetToMaximumAvailable": {
+    "placeholders": {
+      "stock": {
+        "type": "int"
+      }
+    }
+  },
+  "homecontent": "Contenu de l'accueil",
+  "searchForCropsPlaceholder": "Rechercher des cultures...",
+  "noProductsFound": "Aucun produit trouvé",
+  "welcomeUser": "Bienvenue, {firstName}",
+  "@welcomeUser": {
+    "placeholders": {
+      "firstName": {
+        "type": "String"
+      }
+    }
+  },
+  "noOrdersFound": "Aucune commande trouvée",
+  "showingAllOrdersCount": "Affichage de {current} sur {total} commandes",
+  "@showingAllOrdersCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "customerLabel": "Client : {username}",
+  "@customerLabel": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneLabel": "Téléphone : {phoneNumber}",
+  "@phoneLabel": {
+    "placeholders": {
+      "phoneNumber": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutFailedMessage": "Échec du paiement : {error}",
+  "@checkoutFailedMessage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "addedToCartMessage": "{quantity} kg ajoutés au panier !",
+  "@addedToCartMessage": {
+    "placeholders": {
+      "quantity": {
+        "type": "int"
+      }
+    }
+  },
+  "failedToAddToCart": "Échec de l'ajout au panier : {error}",
+  "@failedToAddToCart": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "outOfStock": "En rupture de stock",
+  "retailerProfileUpdatedSuccessfully": "Profil de détaillant mis à jour avec succès",
+  "retailerProfileCreatedSuccessfully": "Profil de détaillant créé avec succès",
+  "editRetailerProfile": "Modifier le profil du détaillant",
+  "createRetailerProfile": "Créer un profil de détaillant",
+  "updateProfileTitle": "Mettre à jour le profil",
+  "newProfileTitle": "Nouveau profil",
+  "modifyYourRetailerBusinessInformation": "Modifiez les informations de votre entreprise de détaillant",
+  "enterYourRetailerBusinessInformation": "Entrez les informations de votre entreprise de détaillant",
+  "companyNameLabel": "Nom de l'entreprise",
+  "enterYourCompanyNameLabel": "Entrez le nom de votre entreprise",
+  "companyNameRequired": "Le nom de l'entreprise est requis",
+  "addressLabel": "Adresse",
+  "enterYourBusinessAddressLabel": "Entrez l'adresse de votre entreprise",
+  "addressRequiredLabel": "L'adresse est requise",
+  "contactNumberLabel": "Numéro de contact",
+  "enterYourContactNumberLabel": "Entrez votre numéro de contact",
+  "contactNumberRequired": "Le numéro de contact est requis",
+  "contactNumberLengthError": "Le numéro de contact doit comporter au moins 10 chiffres",
+  "profileDeletedSuccessfully": "Profil supprimé avec succès",
+  "errorDeletingProfile": "Erreur lors de la suppression du profil",
+  "deleteProfile": "Supprimer le profil",
+  "areYouSureDeleteProfile": "Êtes-vous sûr de vouloir supprimer \"{companyName}\" ? Cette action est irréversible et vous devrez créer un nouveau profil pour continuer à utiliser l'application.",
+  "@areYouSureDeleteProfile": {
+    "placeholders": {
+      "companyName": {
+        "type": "String"
+      }
+    }
+  },
+  "profileRequired": "Profil requis",
+  "profileRequiredMessage": "Vous devez créer votre profil de détaillant avant de pouvoir utiliser l'application. Veuillez créer votre profil pour continuer.",
+  "userProfileRequired": "Profil utilisateur requis",
+  "userProfileRequiredMessage": "Veuillez compléter votre profil avec votre prénom, nom et email pour continuer à utiliser l'application.",
+  "completeProfile": "Compléter le profil",
+  "deletingProfile": "Suppression du profil...",
+  "oopsSomethingWentWrong": "Oups ! Quelque chose s'est mal passé",
+  "tryAgainAction": "Réessayer",
+  "selectLanguageTitle": "Choisir la langue",
+  "supportText": "Pour tout problème ou demande, veuillez contacter notre équipe de support :\n\nEmail : support@example.com\nTéléphone : +1 (555) 123-4567\n\nNotre équipe est disponible 24/7 pour vous aider.",
+  "supportCenterTitle": "Centre de support",
+  "termsAndConditionsTitle": "Termes et Conditions",
+  "lightTheme": "Thème clair",
+  "alreadyHaveAnAccount": "Vous avez déjà un compte ?",
+  "logInHere": "Connectez-vous ici",
+  "trackOrderInstructionText": "Appuyez sur une carte de commande pour voir plus de détails ou prendre une action.",
+  "showingOrdersCount": "Affichage de {current} sur {total} commandes ({filtered} {type})",
+  "@showingOrdersCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "filtered": {
+        "type": "int"
+      },
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "showingOrdersCountNoFilter": "Affichage de {current} sur {total} commandes",
+  "@showingOrdersCountNoFilter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "loadingYourOrders": "Chargement de vos commandes...",
+  "startShopping": "Commencer les achats",
+  "noOrdersFound": "Aucune commande trouvée",
+  "tryAdjustingSearchFilter": "Essayez d'ajuster votre recherche ou vos critères de filtre",
+  "loadingMoreOrders": "Chargement de plus de commandes...",
+  "orderNumberCopied": "Numéro de commande copié dans le presse-papiers",
+  "all": "Tout",
+  "pending": "En attente",
+  "processing": "En cours",
+  "shipped": "Expédié",
+  "delivered": "Livré",
+  "cancelled": "Annulé",
+  "returned": "Retourné",
+  "unknown": "Inconnu",
+  "confirmed": "Confirmé",
+  "packed": "Emballé",
+  "deliveryAddress": "Adresse de livraison",
+  "addressNotAvailable": "Adresse non disponible",
+  "orderItems": "Articles de commande",
+  "moreItems": "+{count} articles supplémentaires",
+  "@moreItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "quantity": "Qté: {qty}",
+  "@quantity": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "orderHistory": "Historique des commandes",
+  "trackYourPastOrders": "Suivez vos commandes passées",
+  "forgotPasswordTitle": "Mot de passe oublié",
+  "forgotPasswordInstructions": "Entrez votre numéro de téléphone pour recevoir un OTP pour la réinitialisation du mot de passe.",
+  "sendOtp": "Envoyer l'OTP",
+  "phoneNumberRequired": "Le numéro de téléphone est requis",
+  "enterValid8DigitNumber": "Entrez un numéro de téléphone valide à 8 chiffres",
+  "connected": "Connecté",
+  "disconnected": "Déconnecté",
+  "congratulations": "Félicitations !",
+  "orderReceivedMessage": "Votre commande a été reçue\net est en cours de traitement",
+  "trackOrderButton": "Suivre la commande",
+  "successfully": "Avec succès",
+  "accountCreatedMessage": "Votre compte a été créé avec succès !",
+  "connectionError": "Erreur de connexion",
+  "serverErrorMessage": "Nous n'avons pas pu nous connecter à nos serveurs.\nVeuillez vérifier votre connexion et réessayer.",
+  "goBack": "Retour",
+  "orderUpdate": "mise à jour de la commande",
+  "noNotifications": "Aucune notification",
+  "noUserLoggedIn": "Aucun utilisateur connecté",
+  "orderDelivered": "Votre commande a été finalisée.",
+  "totalItemsCount": "Total des articles : {count}",
+  "@totalItemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "createStrongPasswordInstruction": "Créez un mot de passe fort avec au moins 6 caractères.",
+  "enterYourPassword": "Entrez votre mot de passe",
+  "reenterYourPassword": "Ressaisissez votre mot de passe",
+  "showPassword": "Afficher le mot de passe",
+  "hidePassword": "Masquer le mot de passe",
+  "pleaseConfirmYourPassword": "Veuillez confirmer votre mot de passe",
+  "passwordMustBeSixCharacters": "Le mot de passe doit contenir au moins 6 caractères",
+  "resetPasswordOtp": "OTP de réinitialisation du mot de passe",
+  "sixDigitCodeSent": "Un code à 6 chiffres a été envoyé à votre numéro.\nVeuillez le saisir ci-dessous pour continuer.",
+  "orderDetails": "Détails de la commande",
+  "paymentMethodAndStatus": "Méthode et statut de paiement",
+  "paymentStatus": "Statut du paiement",
+  "completed": "Terminée",
+  "deliveryAddressRouteDetails": "Adresse de livraison / Détails de l'itinéraire",
+  "deliveryAddress": "Adresse de livraison",
+  "noAddressProvided": "Aucune adresse fournie",
+  "route": "Itinéraire",
+  "driverOnTheWay": "Le livreur est en route",
+  "trackingNumber": "Numéro de suivi",
+  "estimatedArrival": "Arrivée estimée",
+  "articlesCommandes": "ARTICLES COMMANDÉS",
+  "qty": "Qté",
+  "noItemsInOrder": "Aucun article dans cette commande.",
+  "failedToLoadAppLogo": "Échec du chargement du logo de l'application",
+  "unexpectedErrorTryAgain": "Une erreur inattendue s'est produite. Veuillez réessayer.",
+  "reset_password_otp_title": "OTP de réinitialisation du mot de passe",
+  "reset_password_otp_instructions": "Un code à 6 chiffres a été envoyé à votre numéro.\nVeuillez le saisir ci-dessous pour continuer.",
+  "reset_password_otp_not_received": "Vous n'avez reçu aucun code ?",
+  "networkErrorException": "Erreur réseau. Veuillez vérifier votre connexion.",
+  "serverError": "Erreur de serveur. Veuillez réessayer plus tard.",
+  "serverTemporaryError": "Problème temporaire du serveur. Veuillez réessayer.",
+  "serverDownMessage": "Le serveur est actuellement indisponible. Veuillez réessayer plus tard.",
+  "temporaryServerIssue": "Problème Temporaire du Serveur",
+  "serverUnavailable": "Serveur Indisponible",
+  "retrySuggestion": "Il s'agit d'un problème temporaire. Vous pouvez réessayer.",
+  "dismiss": "Fermer",
+  "checkConnectionSuggestion": "Veuillez vérifier votre connexion Internet et réessayer.",
+  "authenticationFailed": "Échec de l'authentification. Veuillez vous reconnecter.",
+  "resourceNotFound": "Ressource non trouvée.",
+  "serverUnreachable": "Impossible de joindre le serveur. Veuillez réessayer plus tard.",
+  "badRequest": "Mauvaise requête. Veuillez vérifier votre saisie.",
+  "permissionDenied": "Vous n'avez pas la permission d'effectuer cette action.",
+  "validationFailed": "Échec de la validation. Veuillez vérifier votre saisie.",
+  "tooManyRequests": "Trop de requêtes. Veuillez réessayer plus tard.",
+  "requestTimeout": "Délai de la requête dépassé. Veuillez vérifier votre connexion.",
+  "connectionErrorException": "Erreur de connexion. Veuillez vérifier votre connexion Internet.",
+  "sslCertificateError": "Erreur de certificat SSL. Veuillez réessayer.",
+  "requestCancelled": "La requête a été annulée.",
+  "invalidExpiredVerificationCode": "Code de vérification invalide ou expiré. Veuillez réessayer.",
+  "sessionExpired": "Session expirée. Veuillez vous reconnecter.",
+  "invalidPassword": "Mot de passe invalide. Veuillez réessayer.",
+  "invalidEmailUsername": "Email ou nom d'utilisateur invalide. Veuillez vérifier vos identifiants.",
+  "userNotFound": "Utilisateur non trouvé. Veuillez vous inscrire d'abord.",
+  "invalidCredentials": "Identifiants invalides. Veuillez réessayer.",
+  "tooManyFailedAttempts": "Trop de tentatives échouées. Veuillez réessayer plus tard.",
+  "emptyCartException": "Votre panier est vide.",
+  "notEnoughStock": "Stock insuffisant.",
+  "addressRequiredException": "Une adresse est requise pour le paiement.",
+  "retailerOnly": "Cette action n'est disponible que pour les détaillants.",
+  "unknownProduct": "Produit inconnu",
+  "units": "unités",
+  "unknownError": "Une erreur inconnue s'est produite.",
+  "completeProfileInstruction": "Veuillez compléter votre profil avec votre prénom, nom et email pour continuer à utiliser l'application.",
+  "pleaseCompleteProfile": "Veuillez compléter votre profil pour continuer à utiliser l'application.",
+  "needHelp": "Besoin d'aide ?",
+  "emailSupport": "Support par email",
+  "phoneSupport": "Support téléphonique",
+  "callUsAt": "Appelez-nous au : {phone}",
+  "@callUsAt": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "contactUsAt": "Contactez-nous à : {email}",
+  "@contactUsAt": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "dontHaveAnAccount": "Vous n'avez pas de compte ? ",
+  "firstNameOptional": "Prénom",
+  "lastNameOptional": "Nom de famille (Optionnel)",
+  "phoneNumberOptional": "Numéro de téléphone",
+  "role": "Rôle",
+  "retailer": "Détaillant",
+  "supplier": "Fournisseur",
+  "createAccount": "Créer un compte",
+  "usernameMustBeAtLeast3Characters": "Le nom d'utilisateur doit contenir au moins 3 caractères",
+  "emailIsRequired": "L'email est requis",
+  "pleaseEnterValidEmailAddress": "Veuillez entrer une adresse email valide",
+  "passwordMustBeAtLeast8Characters": "Le mot de passe doit contenir au moins 8 caractères",
+  "pleaseConfirmYourPassword": "Veuillez confirmer votre mot de passe",
+  "passwordsDontMatch": "Les mots de passe ne correspondent pas",
+  "anUnexpectedErrorOccurred": "Une erreur inattendue s'est produite",
+  "validationErrors": "Erreurs de validation",
+  "userWithUsernameAlreadyExists": "Un utilisateur avec ce nom d'utilisateur existe déjà.",
+  "userWithEmailAlreadyExists": "Un utilisateur avec cette adresse email existe déjà.",
+  "passwordTooCommon": "Ce mot de passe est trop commun.",
+  "passwordTooShort": "Ce mot de passe est trop court. Il doit contenir au moins 8 caractères.",
+  "passwordEntirelyNumeric": "Ce mot de passe est entièrement numérique.",
+  "passwordsDoNotMatchValidation": "Les mots de passe ne correspondent pas",
+  "ok": "OK",
+  "fieldUsername": "Nom d'utilisateur",
+  "fieldEmail": "Email",
+  "fieldPassword": "Mot de passe",
+  "fieldFirstName": "Prénom",
+  "fieldLastName": "Nom de famille",
+  "fieldPhoneNumber": "Numéro de téléphone",
+  "noRetailerProfileYet": "Aucun profil de détaillant pour le moment",
+  "createRetailerProfileDescription": "Créez votre profil de détaillant pour commencer\nà gérer vos connexions d'entreprise",
+  "editProfile": "Modifier le profil",
+  "createdLabel": "Créé",
+  "userLabel": "Utilisateur",
+  "deletingProfile": "Suppression du profil...",
+  "profileDeletedSuccessfully": "Profil supprimé avec succès",
+  "errorDeletingProfile": "Erreur lors de la suppression du profil",
+  "deleteProfile": "Supprimer le profil",
+  "areYouSureDeleteProfile": "Êtes-vous sûr de vouloir supprimer le profil pour {companyName}?",
+  "@areYouSureDeleteProfile": {
+    "placeholders": {
+      "companyName": {
+        "type": "String"
+      }
+    }
+  },
+  "profileRequired": "Profil requis",
+  "profileRequiredMessage": "Vous devez avoir au moins un profil de détaillant pour continuer à utiliser l'application.",
+  "onlyOneProfileAllowed": "Vous ne pouvez avoir qu'un seul profil de détaillant. Modifiez votre profil existant à la place.",
+  "awaitingConfirmation": "En attente de confirmation",
+  "paymentConfirmed": "Paiement confirmé",
+  "paymentCancelled": "Paiement annulé",
+  "paymentRefunded": "Paiement remboursé",
+  "payOnDelivery": "Payer à la livraison",
+  "pressBackAgainToExit": "Appuyez à nouveau sur retour pour quitter",
+  "exitApp": "Quitter l'application",
+  "canCancelOnlyPending": "Vous ne pouvez annuler que les commandes en attente.",
+  "failedToDeleteOrder": "Échec de la suppression de la commande.",
+  "failedToDeleteOrderWithError": "Échec de la suppression de la commande : {error}",
+  "@failedToDeleteOrderWithError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteOrder": "Supprimer la commande",
+  "areYouSureDeleteOrder": "Êtes-vous sûr de vouloir supprimer cette commande ?",
+  "someItemsCouldNotBeAddedToCart": "Certains articles n'ont pas pu être ajoutés au panier. Veuillez vérifier la disponibilité du stock et réessayer.",
+  "notes": "Notes",
+  "orderCancelled": "Commande annulée",
+  "cancelOrderConfirmation": "Êtes-vous sûr de vouloir annuler cette commande ? Cette action est irréversible.",
+  "orderCancellationRequested": "Annulation de commande demandée. Notre équipe la traitera bientôt.",
+  "confirm": "Confirmer",
+  "itemsAddedToCart": "Tous les articles ont été ajoutés à votre panier !",
+  "reorder": "Recommander",
+  "orderReturned": "Commande retournée",
+  "cancelOrder": "Annuler",
+  "deliveryInformation": "Informations de livraison :",
+  "orderId": "ID de commande :",
+  "item": "Article",
+  "deliveryWillBeMadeToThisAddress": "La livraison sera effectuée à cette adresse",
+  "addressInfoNotAvailable": "Les informations d'adresse ne sont pas disponibles",
+  "addressCopiedToClipboard": "Adresse copiée dans le presse-papiers",
+  "orderNumber": "Numéro de commande",
+  "outForDelivery": "En cours de livraison"
+}
